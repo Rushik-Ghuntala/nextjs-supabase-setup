@@ -1,7 +1,9 @@
-export default function Home() {
+import Home from "@/setup-demo/home";
+
+export default function Page() {
   return (
-    <div className=" text-2xl font-bold text-center flex items-center justify-center h-screen">
-      Next.js setup complete
-    </div>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
